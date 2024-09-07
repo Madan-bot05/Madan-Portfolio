@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className=' mb-20 flex items-center justify-between py-6'>
         <div className='flex flex-shrink-0 items-center'>
-            <h1 className='mx-2 w-10 text-bold'  alt="" >M</h1>
+            <h1 className='mx-2 w-10 text-bold'  alt="" >Madan</h1>
         </div>
         <div className='m-8 flex items-center justify-center gap-4'>
             <a href="https://github.com/Madan-bot05"><FaGithub className='cursor-pointer'/></a>
