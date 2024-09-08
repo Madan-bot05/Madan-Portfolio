@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import projectImage1 from "../assets/projects/project1.jpeg";
+import projectImage2 from "../assets/projects/project2.jpeg";
+import projectImage3 from "../assets/projects/project3.jpeg";
+import projectImage4 from "../assets/projects/project4.jpeg";
+import projectImage5 from "../assets/projects/project5.jpeg";
+import projectImage6 from "../assets/projects/project6.jpeg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, SpringBoot, and Java. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -38,39 +40,94 @@ export const EXPERIENCES = [
   },
 ];
 
-export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-];
+// export const PROJECTS = [
+//   {
+//     title: "E-Commerce Website",
+//     image: project1,
+//     description:
+//       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+//   },
+//   {
+//     title: "Task Management App",
+//     image: project2,
+//     description:
+//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+//   },
+//   {
+//     title: "Portfolio Website",
+//     image: project3,
+//     description:
+//       "A personal portfolio website showcasing projects, skills, and contact information.",
+//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+//   },
+//   {
+//     title: "Blogging Platform",
+//     image: project4,
+//     description:
+//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+//     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+//   },
+// ];
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
   phoneNo: "+12 4555 666 00 ",
   email: "me@example.com",
 };
+
+export const PROJECTS = [
+  {
+    id: 1,
+    name: "Personal Portfolio",
+    description:
+      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
+    image: projectImage1,
+    githubLink: "https://github.com/user/personal-portfolio",
+  },
+  {
+    id: 2,
+    name: "E-Commerce Platform",
+    description:
+      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+    image: projectImage2,
+    githubLink: "https://github.com/user/ecommerce-platform",
+  },
+  {
+    id: 3,
+    name: "Task Management Tool",
+    description:
+      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+    image: projectImage3,
+    githubLink: "https://github.com/user/task-management-tool",
+  },
+  {
+    id: 4,
+    name: "Weather App",
+    description:
+      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+    image: projectImage4,
+    githubLink: "https://github.com/user/weather-app",
+  },
+  {
+    id: 5,
+    name: "Blog Platform",
+    description:
+      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+    image: projectImage5,
+    githubLink: "https://github.com/user/blog-platform",
+  },
+  {
+    id: 6,
+    name: "Chat Application",
+    description:
+      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+    image: projectImage6,
+    githubLink: "https://github.com/user/chat-application",
+  },
+];
+
+
+
+
