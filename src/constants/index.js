@@ -84,45 +84,53 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/Madan-bot05/Madan-Portfolio",
   },
   {
     id: 2,
     name: "E-Commerce Platform",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "An e-commerce web application developed using React and SpringBoot with payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/Madan-bot05/e_comerce",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Crypto Trading App",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A Crypto Trading application built with React and SpringBoot for efficient trading and viewing Crypto in which user can see the realtime values of crypto currencies and can buy or sell it in realtime.",
     image: projectImage3,
     githubLink: "https://github.com/user/task-management-tool",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "Apple Website",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "A Apple wesbite made with Three JS and GSAP to showcase and know basics of Three JS and GSAP to make responsive wesbite .",
     image: projectImage4,
     githubLink: "https://github.com/user/weather-app",
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "RealEsate App",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "A realtime buying, selling and renting Houses made with MERN. In which a user can sell or rent his own house of its own and make profits .",
     image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
+    githubLink: "https://github.com/Madan-bot05/RealEstate-Mern-Stack",
   },
   {
     id: 6,
-    name: "Chat Application",
+    name: "Chat App",
     description:
       "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+    image: projectImage6,
+    githubLink: "https://github.com/Madan-bot05/ChatApp-",
+  },
+  {
+    id: 6,
+    name: "Food Ordering App",
+    description:
+      "A real-time food ordering app made with React and SpringBoot. In which user can order his food with its own customization with payment Integration .",
     image: projectImage6,
     githubLink: "https://github.com/user/chat-application",
   },
