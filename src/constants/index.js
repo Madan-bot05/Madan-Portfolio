@@ -136,6 +136,30 @@ export const PROJECTS = [
   },
 ];
 
+export const EDUCATION = [
+  {
+    degree: "Bachelor of Technology in Computer Science",
+    institution: "Centurion University",
+    duration: "September 2021 - June 2025",
+    description:
+      "Specialized in software Development and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures.",
+  },
+  {
+    degree: "12th Science",
+    institution: "Bhadrak Autonomous College",
+    duration: "September 2019 - June 2021",
+    description:"Passed With 80%"
+      // "Focused on web development, programming languages, and database management. Where I developed several web applications using HTML, CSS, JavaScript, and PHP. Passed with a high 80%.",
+  },
+  {
+    degree: "Matriculation",
+    institution: "Sunshine Mission School",
+    duration: "May 2019",
+    description:"Passed With 82%"
+      // "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+  },
+];
+
 
 
 

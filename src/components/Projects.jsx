@@ -4,12 +4,13 @@ import { MdArrowOutward } from 'react-icons/md';
 
 const Projects = () => {
   return (
-    <section className='pt-20' id='project'>
+    <section className='pt-20 border-b border-neutral-900 ' id='project'>
       <h2 className='mb-8 text-center text-3xl lg:text-4xl'><span className='text-gray-600'>Pro</span><span className='text-gray-300'>j</span>ects</h2>
-      <div className='grid grid-col-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+      {/* <div className='flex flex-wrap justify-center w-full lg:w-1/3 '> */}
+      <div className='flex flex-wrap justify-center gap-5'>
         {PROJECTS.map((project) => {
           return (
-            <div key={project.id} className='group relative overflow-hidden rounded-3xl'>
+            <div key={project.id} className='w-full md:w-1/2 lg:w-1/4 flex justify-center group relative overflow-hidden rounded-3xl'>
               <img 
                 src={project.image} 
                 alt={project.name} 
