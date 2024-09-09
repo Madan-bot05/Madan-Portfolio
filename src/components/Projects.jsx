@@ -1,17 +1,24 @@
 import React from 'react';
 import { PROJECTS } from "../constants";
 import { MdArrowOutward } from 'react-icons/md';
+import { motion } from "framer-motion"
 
 const Projects = () => {
   return (
     <section className='pt-20 border-b border-neutral-900 ' id='project'>
-      <h2 className='mb-8 text-center text-3xl lg:text-4xl'><span className='text-gray-600'>Pro</span><span className='text-gray-300'>j</span>ects</h2>
+      <motion.h2 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-50}} transition={{duration:1.5}} className='mb-8 text-center text-3xl lg:text-4xl'><span className='text-gray-600'>Pro</span><span className='text-gray-300'>j</span>ects</motion.h2>
       {/* <div className='flex flex-wrap justify-center w-full lg:w-1/3 '> */}
       <div className='flex flex-wrap justify-center gap-5'>
         {PROJECTS.map((project) => {
           return (
-            <div key={project.id} className='w-full md:w-1/2 lg:w-1/4 flex justify-center group relative overflow-hidden rounded-3xl'>
-              <img 
+            <motion.div key={project.id} whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100,rotate:90}} transition={{duration:1.5}} whileHover={{ scale: 1.1, rotate: 0 }} className='w-full md:w-1/2 lg:w-1/4 flex justify-center group relative overflow-hidden rounded-3xl'>
+              <motion.img 
+              
+              // whileTap={{
+              //   scale: 0.8,
+              //   rotate: -90,
+              //   borderRadius: "100%"
+              // }}
                 src={project.image} 
                 alt={project.name} 
                 className='h-full w-full object-cover transition-transform duration-500 group-hover:scale-110' 
@@ -31,7 +38,7 @@ const Projects = () => {
                   </div>
                 </a>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </div>

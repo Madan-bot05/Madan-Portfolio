@@ -47,6 +47,7 @@ const Hero = () => {
              initial={{x:100,opacity:0}}
              animate={{x:0,opacity:1}}
              transition={{duration:1,delay:1.5}}
+             whileHover={{scale:1}}
               src={profilePic} className="w-[500px] h-[400px] object-cover rounded-2xl" alt="Madan" />
           </div>
         </div>
