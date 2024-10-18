@@ -26,7 +26,7 @@ const About = () => {
               className='w-full lg:w-1/2 text-center relative'>
             <div className='flex justify-center lg:justify-start flex-col items-center lg:items-start'>
                 <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
-                <div className="px-[14rem] w-full flex justify-start mt-auto">
+                <div className="px-[14rem] w-full flex justify-center lg:justify-start mt-auto">
                   <motion.a 
                                whileInView={{opacity:1,x:0}}
                                initial={{opacity:0,x:100}}
