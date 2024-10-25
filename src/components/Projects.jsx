@@ -10,7 +10,7 @@ const Projects = () => {
         <span className='text-gray-600'>Pro</span><span className='text-gray-300'>j</span>ects
       </motion.h2>
 
-      <div className='flex flex-wrap justify-center gap-5'>
+      <div className='flex flex-wrap justify-center gap-5 select-none'>
         {PROJECTS.map((project) => (
           <motion.div
             key={project.id}
