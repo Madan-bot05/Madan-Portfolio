@@ -31,7 +31,7 @@ const About = () => {
                                whileInView={{opacity:1,x:0}}
                                initial={{opacity:0,x:100}}
                                transition={{duration:0.5}}
-                  href='https://drive.google.com/file/d/1kClOJ6YUlctZcjLVQb4r8YflT0XdER0J/view?usp=drive_link' target="_blank" rel="noopener noreferrer">
+                  href='https://drive.google.com/file/d/1e6c9MguYgX6F0N_Po5M0x2Vd8-IbKHeA/view?usp=drive_link' target="_blank" rel="noopener noreferrer">
                   <button className='flex items-center px-4 py-2 bg-gray-700 text-white rounded-lg'>
                     Resume
                     <MdArrowOutward className='ml-2' /> {/* Icon with margin */}
